@@ -10,7 +10,7 @@ namespace ByndyusoftTest.PageObjects
         public void PerformSearch(string searchText)
         {
             SearchBar.SendKeys(searchText);
-            SearchBar.SendKeys(Keys.Return);
+            SearchBar.Submit();
         }
     }
 }
